@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        />
+    <TextView
+        android:id="@+id/recent_place_txt_place_name"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/toolbar"
+        android:text="@string/place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_name_info"
+        android:layout_below="@id/recent_place_txt_place_name"
+        android:text="@string/place_name_info"
+        android:paddingTop="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_phone"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/recent_place_txt_place_name_info"
+        android:text="@string/place_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_phone_info"
+        android:layout_below="@id/recent_place_txt_place_phone"
+        android:text="@string/place_phone_info"
+        android:paddingTop="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_address"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/recent_place_txt_place_phone_info"
+        android:text="@string/place_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_address_info"
+        android:layout_below="@id/recent_place_txt_place_address"
+        android:text="@string/place_address_info"
+        android:paddingTop="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_distance"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/recent_place_txt_place_address_info"
+        android:text="@string/place_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_distance_info"
+        android:layout_below="@id/recent_place_txt_place_distance"
+        android:text="@string/place_distance_info"
+        android:paddingTop="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_website"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/recent_place_txt_place_distance_info"
+        android:text="@string/place_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_website_info"
+        android:layout_below="@id/recent_place_txt_place_website"
+        android:text="@string/place_website_info"
+        android:paddingTop="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/recent_place_txt_place_photo"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/recent_place_txt_place_website_info"
+        android:text="@string/place_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/recent_place_txt_place_photo"
+        android:id = "@+id/recent_place_detail_list_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

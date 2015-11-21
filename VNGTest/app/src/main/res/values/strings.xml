@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VNG Test</string>
+    <string name="main_btn_display">Display</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_txt_description">Click here to display recent place</string>
+    <string name="place_name">Name</string>
+    <string name="place_distance">Distance</string>
+    <string name="place_name_info">Name Info</string>
+    <string name="place_phone">Phone</string>
+    <string name="place_phone_info">Phone Info</string>
+    <string name="place_address">Address</string>
+    <string name="place_address_info">Address Info</string>
+    <string name="place_website">Website</string>
+    <string name="place_website_info">Website Info</string>
+    <string name="place_distance_info">Distance Info</string>
+    <string name="place_photo">Photo</string>
+</resources>
