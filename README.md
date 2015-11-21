@@ -1,5 +1,5 @@
 # VNGTest
-## Đề tài: Tìm các vị trí xung quanh mình sử dụng API của google.
+#### Đề tài: Tìm các vị trí xung quanh mình sử dụng API của google.
 1. Các hướng xử lý tối ưu.
   * Sử dụng đa luồng để lấy dữ liệu từ Google API về. (Cụ thể là dùng AsyncTask)
   * Sử dụng recyclerView với class ViewHolder giúp tăng hiệu suất trong quá trình inflate layout.
